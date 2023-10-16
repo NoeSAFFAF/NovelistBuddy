@@ -1,0 +1,70 @@
+# Ignore Visual Studio files
+.vscode/
+.vs/
+
+# Ignore output
+out/
+
+# Ignore CMake build directory
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeTmp/
+CMakeDownload/
+CMakeDoxyfile.in
+CMakeExternals/
+CMakePredefinedTargets.cmake
+CMakeUserPresets.json
+CMakeUserPresets.json.cmake
+
+# Ignore Visual Studio Code settings
+.vscode/
+*.code-workspace
+
+# Ignore compiled binaries and libraries
+bin/
+lib/
+*.dll
+*.so
+*.dylib
+
+# Ignore generated project files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Ignore user-specific settings files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore logs and databases
+*.log
+*.sqlite
+
+# Ignore build tools
+*_i.c
+*_i.h
+*.ilk
+*.ncb
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sdf
+*.tlog
+*.idb
+
+# Ignore macOS file metadata
+.DS_Store
+
+# Ignore JetBrains CLion files
+.idea/
+
+# Ignore temporary files and directories
+CMakeFiles/
+CMakeScripts/
+CMakeTmp/
+Testing/
